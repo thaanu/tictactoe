@@ -1,0 +1,23 @@
+body {
+    background: #eee;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+}
+
+.container .row {
+    display: flex;
+}
+
+.container .row .btn {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 100px;
+}
